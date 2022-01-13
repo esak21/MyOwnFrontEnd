@@ -1,0 +1,28 @@
+body{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+h1 {
+    color: brown;
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+/*  */
+a { 
+    color: pink;
+}
+.intro {
+    font-size: 35px;
+}
+
+#earthtitle {
+    color: lightgreen;
+}
+
+#marstitle{
+    color: lightsalmon;
+}
