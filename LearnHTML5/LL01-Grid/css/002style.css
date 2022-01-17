@@ -1,0 +1,29 @@
+.container {
+  height:100%;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: 50px auto 50px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 
+  "h h h h h h h h h h h h "
+  "m c c c c c c c c c c c"
+  "f f f f f f f f f f f f";
+}
+
+.header {
+  /* grid-column: 1 / -1;  */
+  /* Grid Area  */
+  grid-area: h;
+}
+.menu {
+  grid-area: m;
+}
+.content {
+  /* grid-column: 2/ -1; */
+  grid-area: c;
+}
+
+.footer {
+  /* grid-column: 1 / -1; */
+  grid-area: f;
+}

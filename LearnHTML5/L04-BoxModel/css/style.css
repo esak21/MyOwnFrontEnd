@@ -1,0 +1,22 @@
+
+body {
+    background: #333;
+    color: white;
+}
+
+header {
+    background: cadetblue;
+    color: red;
+    width: 100px;
+    margin-top: 100px;   
+    margin-bottom: 60px;
+}
+
+main {
+    background: burlywood;
+    color: blueviolet;
+    margin: 10px 20px 30px 40px;
+    padding: 90px;
+
+    border: solid 13px;
+}
