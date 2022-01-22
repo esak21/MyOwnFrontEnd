@@ -1,0 +1,27 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex; 
+    /* it will autmatically lines up the element side by side  */
+    /* It stacks the item from top to Bottom  */
+    /*  by default it will be ROW  */
+    /* flex-direction: column; */
+
+    /* Justify Content  */
+    /* justify-content: flex-end; */
+
+
+}
+
+/* .home {
+    margin-right: auto;
+}
+
+.container > .logout {
+    flex: 2;
+    
+}
+
+.container > .home {
+    flex: 2;
+    
+} */
