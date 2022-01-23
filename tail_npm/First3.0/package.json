@@ -1,0 +1,23 @@
+{
+  "name": "first3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:build:dev": "npx tailwindcss -i style.css -o ./src/style.css --watch",
+    "tailwind:build:prod": "postcss  style.css -o ./src/style.css ",
+    "server": "servor src index.html 8060 --browse --reload",
+    "dev": "run-p \"tailwind:build:dev\" \"server\" ",
+    "prod": "npm run tailwind:build:prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.15",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^9.1.0",
+    "servor": "^4.0.2",
+    "tailwindcss": "^3.0.15"
+  }
+}
